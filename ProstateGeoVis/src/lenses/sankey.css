@@ -1,0 +1,25 @@
+#chart {
+  margin-top: 2em;
+  height: 500px;
+}
+
+.node rect {
+  cursor: move;
+  fill-opacity: .9;
+  shape-rendering: crispEdges;
+}
+
+.node text {
+  pointer-events: none;
+  fill: #222;
+}
+
+.link {
+  fill: none;
+  stroke: #666;
+  stroke-opacity: .1;
+}
+
+.link:hover {
+  stroke-opacity: .3;
+}

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro%7CSource+Serif+Pro');
+
+.App {
+  flex: 1;
+  /*background: #FFF7F0;*/
+  /*padding-top: 2em;*/
+  color: #222;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Serif Pro', serif;
+  overflow-y: hidden;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.container-fluid {
+  min-height: 100vh;
+}
+
+.map-container {
+  width: 33%;
+}
+
+.lens-container {
+  background: #FFF7F0;
+  /*width: 50%;*/
+  min-height: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#lanet {
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));
+}
+
+#gusseChartMuni {
+  overflow: hidden;
+}
+
+#gusseChartMuni path {
+  stroke: #000;
+}
+
+#gusseChartMuni text {
+  /*stroke: #000;*/
+  font-family: 'Source Serif Pro', serif;
+}
+
+.tick line {
+  stroke: #000;
+}
+
+.gusse-muni-names {
+  text-align: center;
+}
+
+#gusseChartMuni rect {
+  stroke: #FFF7F0;
+  /*fill: #F5A503 !important;*/
+}
+
+.lens-container {
+  border-left: 1px dashed #222;
+  /*background: #fff;*/
+  min-height: 100vh !important;
+  padding-bottom: 2em;
+}
+.credits li {
+    display:inline;
+}

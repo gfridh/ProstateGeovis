@@ -1,0 +1,36 @@
+.top-spacer {
+	/*margin-top: 12em;*/
+}
+
+.preview-label {
+	font-size: 6em;
+  cursor: pointer;
+  text-align: right;
+	/*color: #64F85D;*/
+	/*text-shadow: -7px 0 #FF47A4, 0 7px #FF47A4, 7px 0 #FF47A4, 0 -7px #FF47A4*/
+}
+
+.preview-sub-label {
+  text-align: right;
+  font-style: italic;
+}
+
+.da-big-clicker {
+  cursor: pointer;
+}
+
+.da-big-row {
+  /*background: #FFF7F0;*/
+	background: transparent;
+	/*margin: 1em 12em 1em 12em;*/
+  margin: 9em auto;
+	border-radius: 12px;
+}
+
+.preview-button {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+  cursor: pointer;
+
+}

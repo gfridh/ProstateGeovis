@@ -1,0 +1,123 @@
+{
+  "nodes": [
+    {
+      "name": "PSA"
+    },
+    {
+      "name": "Biopsy"
+    },
+    {
+      "name": "Diagnosed with cancer"
+    },
+    {
+      "name": "Treatment with conservative intent"
+    },
+    {
+      "name": "Treatment with curative intent"
+    },
+    {
+      "name": "Treatment with non-curative intent"
+    },
+    {
+      "name": "Death"
+    },
+    {
+      "name": "Free of cancer"
+    },
+    {
+      "name": "Missing"
+    }
+],
+  "links": [
+    {
+      "source": 0,
+      "target": 1,
+      "value": 1,
+      "desc": "PSA -> Biopsy"
+    },
+    {
+      "source": 0,
+      "target": 8,
+      "value": 1,
+      "desc": "PSA -> Missing"
+    },
+    {
+      "source": 1,
+      "target": 2,
+      "value": 1,
+      "desc": "Bio -> Diagnos"
+    },
+    {
+      "source": 1,
+      "target": 7,
+      "value": 1,
+      "desc": "Bio -> Frisk"
+    },
+    {
+      "source": 1,
+      "target": 8,
+      "value": 1,
+      "desc": "Bio -> Missing"
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "value": 1,
+      "desc": "Diagnos -> Conservative"
+    },
+    {
+      "source": 2,
+      "target": 4,
+      "value": 1,
+      "desc": "Diagnos -> Curative"
+    },
+    {
+      "source": 2,
+      "target": 5,
+      "value": 1,
+      "desc": "Diagnos -> Non-curative"
+    },
+    {
+      "source": 2,
+      "target": 8,
+      "value": 1,
+      "desc": "Diagnos -> Missing"
+    },
+    {
+      "source": 3,
+      "target": 6,
+      "value": 1,
+      "desc": "Conservative -> Death"
+    },
+    {
+      "source": 3,
+      "target": 7,
+      "value": 1,
+      "desc": "Conservative -> Frisk"
+    },
+    {
+      "source": 4,
+      "target": 6,
+      "value": 1,
+      "desc": "Curative -> Death"
+    },
+    {
+      "source": 4,
+      "target": 7,
+      "value": 1,
+      "desc": "Curative -> Frisk"
+    },
+    {
+      "source": 5,
+      "target": 6,
+      "value": 1,
+      "desc": "Non-curative -> Death"
+    },
+    {
+      "source": 5,
+      "target": 7,
+      "value": 1,
+      "desc": "Non-curative -> Frisk"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+body {
+	background-color: rgb(245,245,245);
+}
+
+h1{
+	margin: 0 auto;
+}
+
+svg{
+}
+
+#municipality1{
+	margin: auto;
+}
+
+#preLens {
+  margin-top: 1em;
+}
+
+#subject {
+  margin-top: 2rem;
+}
+
+
+

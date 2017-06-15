@@ -1,0 +1,43 @@
+.background path {
+  fill: none;
+  stroke: #ddd;
+}
+
+.foreground path {
+  fill: none;
+  stroke: #F2385A;
+
+}
+
+.brush .extent {
+  fill-opacity: .3;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+}
+
+.axis line, .axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+
+}
+
+#subject {
+  font-size: 6em;
+}
+
+svg.death {
+  overflow: visible;
+  margin-left: 10em;
+}
+
+button {
+  color: #fff;
+}
+
+.death-row {
+  margin-top: 3em;
+}

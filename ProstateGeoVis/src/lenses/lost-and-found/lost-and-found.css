@@ -1,0 +1,20 @@
+text {
+  fill: #222;
+}
+
+line {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2px;
+}
+
+.domain {
+  stroke: #222;
+  stroke-width: 1px;
+}
+
+.bar {
+  fill: #222;
+  fill: #F2385A;
+  fill: #F5A503;
+}

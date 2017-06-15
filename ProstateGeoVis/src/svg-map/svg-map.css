@@ -1,0 +1,32 @@
+#lanet {
+  /*transform: scale(2);*/
+  transform: rotate(-15deg) scale(2.1);
+  margin-top: 50px;
+  margin-left: -150px;
+}
+
+#lanet path {
+  fill: #333;
+  fill: #2BB673;
+  fill: #fff;
+}
+
+#lanet path:hover {
+  fill: #b3e18a;
+}
+
+.map-header {
+  font-family: 'Source Serif Pro', serif;
+  z-index: 9999;
+  /*font-size: 4em;*/
+  z-index: 999 !important;
+  background: transparent;
+  position: fixed;
+  top: -1em;
+  left: 2em;
+}
+
+.map-header h3 {
+  /*color: #222;*/
+  font-size: 4em;
+}

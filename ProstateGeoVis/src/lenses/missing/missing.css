@@ -1,0 +1,12 @@
+.range-container {
+  width: 80%;
+  margin: 2em auto;
+}
+
+.rc-slider-rail {
+  /*background: #f44;*/
+}
+
+.selected-regions {
+  margin-top: 2em;
+}

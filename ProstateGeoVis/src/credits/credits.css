@@ -1,0 +1,10 @@
+.credits {
+  width: 80%;
+  line-height: 1.6;
+  padding: 2em 0;
+}
+
+.credits li {
+  display: list-item;
+  text-align: left;
+}
